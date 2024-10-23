@@ -1,4 +1,5 @@
 import Letreiro from "./Letreiro";
+import { Link } from "react-router-dom";
 
 function Atv02() {
     return (

@@ -29,7 +29,7 @@ function Contador() {
 
       <div className="contadores">
         <div className="contador-homens">
-          <img src="/path-to-male-icon.png" alt="Homens" />
+          <img src="/homens.png" alt="Homens" />
           <div className="controls">
             <button onClick={incrementarHomens} className="increment">
               <span role="img" aria-label="incrementar">➕</span>
@@ -43,7 +43,7 @@ function Contador() {
         </div>
 
         <div className="contador-mulheres">
-          <img src="/path-to-female-icon.png" alt="Mulheres" />
+          <img src="/mulheres.png" alt="Mulheres" />
           <div className="controls">
             <button onClick={incrementarMulheres} className="increment">
               <span role="img" aria-label="incrementar">➕</span>

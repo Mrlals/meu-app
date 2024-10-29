@@ -29,7 +29,7 @@ function Contador() {
 
       <div className="contadores">
         <div className="contador-homens">
-          <img src="/homens.png" alt="Homens" />
+          <img src="https://cdn-icons-png.flaticon.com/512/236/236831.png" alt="Homens" />
           <div className="controls">
             <button onClick={incrementarHomens} className="increment">
               <span role="img" aria-label="incrementar">➕</span>
@@ -43,7 +43,7 @@ function Contador() {
         </div>
 
         <div className="contador-mulheres">
-          <img src="/mulheres.png" alt="Mulheres" />
+          <img src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png" alt="Mulheres" />
           <div className="controls">
             <button onClick={incrementarMulheres} className="increment">
               <span role="img" aria-label="incrementar">➕</span>

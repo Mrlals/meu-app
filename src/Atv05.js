@@ -1,5 +1,5 @@
 import Toolbar from "./Toolbar";
-import Gallery from "./Gallery";
+import Gallery_5 from "./Gallery_5";
 import Counter from "./Counter";
 import Form from "./Form";
 import { Link } from "react-router-dom";

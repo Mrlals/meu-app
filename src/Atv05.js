@@ -10,7 +10,7 @@ function Atv05() {
         <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
         <h2>Atividade 05</h2>
         <Toolbar />
-        <Gallery />
+        <Gallery_5 />
         <Counter />
         <Form />
         </div>

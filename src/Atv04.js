@@ -9,33 +9,23 @@ function Atv04() {
     return (
     <>
         <h2>Atividade 04</h2>
-        <div>
-        <section>
-            <h2>1. Gallery Component</h2>
+        <>
+            <h3>1. Gallery Component</h3>
             <Gallery />
-        </section>
 
-        <section>
-            <h2>2. Profile Component</h2>
+            <h3>2. Profile Component</h3>
             <Profile />
-        </section>
 
-        <section>
-            <h2>3. PackingList Component</h2>
+            <h3>3. PackingList Component</h3>
             <PackingList />
-        </section>
 
-        <section>
-            <h2>4. Chemists List Component</h2>
+            <h3>4. Chemists List Component</h3>
             <Chemists />
-        </section>
 
-        <section>
-            <h2>5. Double Component</h2>
+            <h3>5. Double Component</h3>
             <Double number={2} />
             <Double number={4} />
-        </section>
-        </div>
+        </>
 
         <Link to="/">Voltar</Link>
     </>

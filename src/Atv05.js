@@ -1,8 +1,7 @@
-import React from "react";
-import Toolbar from "./components/Toolbar";
-import Gallery from "./components/Gallery";
-import Counter from "./components/Counter";
-import Form from "./components/Form";
+import Toolbar from "./Toolbar";
+import Gallery from "./Gallery";
+import Counter from "./Counter";
+import Form from "./Form";
 import { Link } from "react-router-dom";
 
 function Atv05() {

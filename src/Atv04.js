@@ -11,7 +11,6 @@ import List3 from "./List3";
 import CounterList from "./CounterList";
 import ShapeEditor from "./ShapeEditor";
 import { Link } from "react-router-dom";
-import MovingDot from "./MovingDot";
 
 function Atv04() {
   return (

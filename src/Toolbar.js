@@ -1,10 +1,25 @@
 import React from "react";
 
-function Toolbar({ onPlayMovie, onUploadImage }) {
+function Toolbar() {
+  const handlePlayMovie = () => {
+    alert("Playing the movie!");
+  };
+
+  const handleUploadImage = () => {
+    alert("Uploading the image!");
+  };
+
   return (
-    <div style={{ display: "flex", justifyContent: "center", gap: "10px", margin: "20px" }}>
-      <button onClick={onPlayMovie}>Play Movie</button>
-      <button onClick={onUploadImage}>Upload Image</button>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        gap: "10px",
+        margin: "20px",
+      }}
+    >
+      <button onClick={handlePlayMovie}>Play Movie</button>
+      <button onClick={handleUploadImage}>Upload Image</button>
     </div>
   );
 }

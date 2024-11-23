@@ -1,15 +1,15 @@
-import Letreiro from "./Letreiro";
+import Contador from "./Contador";
 import { Link } from "react-router-dom";
 
-function Atv02() {
+function Atv03() {
     return (
       <>
-          <h2>Atividade 02</h2>
-          <Letreiro />
+          <h2>Atividade 03</h2>
+          <Contador />
 
           <Link to="/">Voltar</Link>
       </>
     );
   }
   
-  export default Atv02;
+  export default Atv03;

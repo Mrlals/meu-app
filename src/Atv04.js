@@ -10,6 +10,7 @@ import List2 from "./List2";
 import List3 from "./List3";
 import CounterList from "./CounterList";
 import ShapeEditor from "./ShapeEditor";
+import BucketList from "./BucketList";
 import { Link } from "react-router-dom";
 
 function Atv04() {
@@ -38,6 +39,7 @@ function Atv04() {
         <ShapeEditor />
         <CounterList />
         <List3 />
+        <BucketList/>
       </div>
       <Link to="/">Voltar</Link>
     </>

@@ -15,22 +15,31 @@ import { Link } from "react-router-dom";
 function Atv04() {
   return (
     <>
-        <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+      <div
+        style={{
+          padding: "20px",
+          fontFamily: "Arial, sans-serif",
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
+          alignItems: "center",
+        }}
+      >
         <h2>Atividade 04</h2>
         <Toolbar />
         <Gallery_5 />
         <Counter />
         <Form />
-        <MovingDot/>
-        <Form2/>
-        <Form3/>
-        <List/>
-        <List2/>
-        <ShapeEditor/>
-        <CounterList/>
-        <List3/>
-        </div>
-        <Link to="/">Voltar</Link>
+        <MovingDot />
+        <Form2 />
+        <Form3 />
+        <List />
+        <List2 />
+        <ShapeEditor />
+        <CounterList />
+        <List3 />
+      </div>
+      <Link to="/">Voltar</Link>
     </>
   );
 }

@@ -4,7 +4,7 @@ const artworks = [
   {
     title: "Homenaje a la Neurocirugía",
     artist: "Marta Colvin Andrade",
-    image: "mc.jpg",
+    image: "/mc.jpg",
   },
 
 ];

@@ -1,10 +1,10 @@
 import Contador from "./Contador";
 import { Link } from "react-router-dom";
 
-function Atv03() {
+function Atv02() {
     return (
       <>
-          <h2>Atividade 03</h2>
+          <h2>Atividade 02</h2>
           <Contador />
 
           <Link to="/">Voltar</Link>
@@ -12,4 +12,4 @@ function Atv03() {
     );
   }
   
-  export default Atv03;
+  export default Atv02;

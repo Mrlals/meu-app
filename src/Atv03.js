@@ -5,10 +5,10 @@ import Chemists from './Chemists';
 import Double from './Double';
 import { Link } from "react-router-dom";
 
-function Atv04() {
+function Atv03() {
     return (
     <>
-        <h2>Atividade 04</h2>
+        <h2>Atividade 03</h2>
         <div>
         <section>
             <h2>1. Gallery Component</h2>
@@ -42,4 +42,4 @@ function Atv04() {
   );
 }
 
-export default Atv04;
+export default Atv03;

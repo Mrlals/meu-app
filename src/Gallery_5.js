@@ -4,7 +4,7 @@ const artworks = [
   {
     title: "Homenaje a la Neurocirugía",
     artist: "Marta Colvin Andrade",
-    image: "https://via.placeholder.com/300x200",
+    image: "https://en.wikipedia.org/wiki/File:Homenaje_a_la_Neurocirug%C3%ADa,_Instituto_de_Neurocirug%C3%ADa,_Providencia,_Santiago_20200106_02.jpg",
   },
 
 ];

@@ -7,8 +7,22 @@ function BucketList() {
     { id: 3, name: "Terracotta Army", checked: true },
   ]);
 
-  const toggleCheckbox = (id) => {
+  const [yourList, setYourList] = useState([
+    { id: 1, name: "Big Bellies", checked: false },
+    { id: 2, name: "Lunar Landscape", checked: false },
+    { id: 3, name: "Terracotta Army", checked: false },
+  ]);
+
+  const toggleMyListCheckbox = (id) => {
     setMyList((prevList) =>
+      prevList.map((item) =>
+        item.id === id ? { ...item, checked: !item.checked } : item
+      )
+    );
+  };
+
+  const toggleYourListCheckbox = (id) => {
+    setYourList((prevList) =>
       prevList.map((item) =>
         item.id === id ? { ...item, checked: !item.checked } : item
       )
@@ -20,6 +34,7 @@ function BucketList() {
       <h1>BucketList</h1>
       <h2>Art Bucket List</h2>
 
+      {/* Minha lista */}
       <h3>My list of art to see:</h3>
       <ul style={{ listStyle: "none", padding: 0 }}>
         {myList.map((item) => (
@@ -28,7 +43,7 @@ function BucketList() {
               <input
                 type="checkbox"
                 checked={item.checked}
-                onChange={() => toggleCheckbox(item.id)}
+                onChange={() => toggleMyListCheckbox(item.id)}
               />
               {item.name}
             </label>
@@ -36,12 +51,17 @@ function BucketList() {
         ))}
       </ul>
 
+      {/* Sua lista */}
       <h3>Your list of art to see:</h3>
       <ul style={{ listStyle: "none", padding: 0 }}>
-        {myList.map((item) => (
+        {yourList.map((item) => (
           <li key={item.id}>
             <label>
-              <input type="checkbox" checked={item.checked} readOnly />
+              <input
+                type="checkbox"
+                checked={item.checked}
+                onChange={() => toggleYourListCheckbox(item.id)}
+              />
               {item.name}
             </label>
           </li>
